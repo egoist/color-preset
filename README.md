@@ -16,7 +16,7 @@ Directly import it in `Sass` or use [postcss-import](https://github.com/postcss/
 @import "color-preset";
 
 .title {
-  color: $deep-green;
+  color: $light-green;
   background-color: $gray-400;
 }
 ```
