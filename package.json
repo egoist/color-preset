@@ -1,0 +1,33 @@
+{
+  "name": "color-preset",
+  "version": "0.0.0",
+  "description": "Color preset for PostCSS and Sass developers.",
+  "license": "MIT",
+  "repository": "egoist/color-preset",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "main": "color.css",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "echo lol"
+  },
+  "files": [
+    "color.css"
+  ],
+  "keywords": [
+    "color",
+    "postcss",
+    "sass",
+    "variable",
+    "preset"
+  ],
+  "devDependencies": {
+    "camel2kebab": "0.0.2",
+    "color-lib": "^0.2.0"
+  }
+}
