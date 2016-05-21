@@ -1,6 +1,6 @@
 {
   "name": "color-preset",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Color preset for PostCSS and Sass developers.",
   "license": "MIT",
   "repository": "egoist/color-preset",
