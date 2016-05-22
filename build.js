@@ -9,7 +9,7 @@ for (const colorName of Object.keys(color)) {
   const value = color[colorName]
   for (const subject of Object.keys(value)) {
     const subName = subject === 'hex' ? '' : `-${subject}`
-    res += `$${toKebab(colorName)}${subName}: ${color[colorName].hex};\n`
+    res += `$${toKebab(colorName)}${subName}: ${color[colorName][subject]};\n`
   }
 }
 
