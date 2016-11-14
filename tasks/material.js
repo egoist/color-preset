@@ -1,4 +1,3 @@
-'use strict'
 const fs = require('fs')
 const color = require('color-lib')
 const toKebab = require('camel2kebab')
@@ -13,4 +12,4 @@ for (const colorName of Object.keys(color)) {
   }
 }
 
-fs.writeFileSync('./color.css', res, 'utf8')
+fs.writeFileSync('./material.css', res, 'utf8')

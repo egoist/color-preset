@@ -8,20 +8,24 @@
 $ npm install --save color-preset
 ```
 
+## Presets
+
+- [Mateterial](https://material.google.com/style/color.html): [color-preset/material.css](./material.css)
+- [Blueprint](http://blueprintjs.com/docs/#colors): [color-preset/blueprint.css](./blueprint.css)
+
 ## Usage
 
 Directly import it in `Sass` or use [postcss-import](https://github.com/postcss/postcss-import) and [postcss-simple-vars](https://github.com/postcss/postcss-simple-vars) to work with `PostCSS`.
 
 ```css
-@import "color-preset";
+/* choose what preset you want */
+@import "color-preset/material.css";
 
 .title {
   color: $light-green;
   background-color: $gray-400;
 }
 ```
-
-Colors are from [color-lib](https://github.com/egoist/color-lib) which is a set of material design colors.
 
 ## License
 
