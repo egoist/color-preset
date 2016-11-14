@@ -19,7 +19,7 @@
     "build:blueprint": "node tasks/blueprint.js"
   },
   "files": [
-    "./*.css"
+    "*.css"
   ],
   "keywords": [
     "color",
